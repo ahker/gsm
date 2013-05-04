@@ -1,0 +1,6 @@
+Devise    ->  Login
+Kaminari  ->  Pagination
+best_in_place -> In Line Edit
+gem 'jquery-datatables-rails', github: 'rweng/jquery-datatables-rails'  ->  Datatables
+facebox-rails  ->  Facebox Popup
+bootstrap-datepicker-rails  ->  DatePicker

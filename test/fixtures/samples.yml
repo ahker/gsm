@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  samp_id: MyString
+  iss_date: 2013-04-15
+  tar_date: 2013-04-15
+  desc: MyText
+  priority: MyString
+  samp_file_name: MyString
+
+two:
+  samp_id: MyString
+  iss_date: 2013-04-15
+  tar_date: 2013-04-15
+  desc: MyText
+  priority: MyString
+  samp_file_name: MyString

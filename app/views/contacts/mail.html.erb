@@ -1,0 +1,18 @@
+<%= form_for @contact, :url => {:controller => "contacts", :action => "contact_mail", :id => @contact.id} do |lo| %>
+						<table class="table">
+								<tr>
+					<td class="center">To <%= lo.text_field :email %></td>
+				</tr>
+				<tr>
+					<td class="center">Subject <%= lo.text_field :sub, :value => "Test Mail" %></td>
+				</tr>
+				<tr>
+					<td class="center">Buyer <%= lo.text_field :buyer %></td>
+				</tr>
+				<tr>
+					<td class="center">Msg <%= lo.text_area :msg, :size => "5x5", :value => "" %></td>
+				</tr>
+								</table><div class="form-actions">
+						 <%= lo.submit "Send Mail" %>
+							</div>
+							<% end %>
